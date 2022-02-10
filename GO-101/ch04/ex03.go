@@ -2,10 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-	ex03()
-}
-
 func ex03() {
 	/*
 		variable declaration
