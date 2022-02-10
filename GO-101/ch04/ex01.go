@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func ex01() {
 	/*
 		var: keyword to declare variable
 		a: variable name
