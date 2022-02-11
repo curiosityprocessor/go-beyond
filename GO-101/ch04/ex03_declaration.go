@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func ex03() {
+func variableDeclaration() {
 	/*
 		variable declaration
 	*/

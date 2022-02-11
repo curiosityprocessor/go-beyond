@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func ex02() {
+func variableTypes() {
 	/*
 		[number types]
 		uint: unsigned integer

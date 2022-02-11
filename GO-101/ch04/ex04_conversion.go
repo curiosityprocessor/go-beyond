@@ -2,11 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-	ex04()
-}
-
-func ex04() {
+func variableConversion() {
 	/*
 		[type conversions]
 		Go is a [very] strongly type language
