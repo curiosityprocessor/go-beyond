@@ -13,6 +13,8 @@ Go basics with **Tucker의 Go 언어 프로그래밍**
 |ch00|write, build, run a .go file| |
 |ch04|variables|declaration, conversion, scope, size|
 |ch05|fmt|standard I/O|
+|ch06|operators| |
+|ch07|functions| |
 
 ## adopted conventions
 #### packages
@@ -20,7 +22,8 @@ Go basics with **Tucker의 Go 언어 프로그래밍**
 * no starting numbers, special charaters
 
 #### functions
-* camelCase
+* exporting functions: UpperCamelCase
+* non-exporting functions: camelCase
 * compound words for clarity
 #### variables
 * camelCase
