@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func integerFormat() {
+func IntegerFormat() {
 	var a = 123
 	var b = 1234
 	var c = 1234567890

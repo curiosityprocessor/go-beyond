@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func floatFormat() {
+func FloatFormat() {
 	var a = 123.12345
 	var b = 3.14
 

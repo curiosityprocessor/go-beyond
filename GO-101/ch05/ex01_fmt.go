@@ -2,7 +2,7 @@ package main
 
 import "fmt" //imports fmt package for standard I/O operations
 
-func fmtPackage() {
+func FmtPackage() {
 	var a int = 12
 	var b float64 = 123456789.987654231
 	var c string = "hello"

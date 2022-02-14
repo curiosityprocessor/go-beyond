@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func scanf() {
+func Scanf() {
 	var a int
 	var b int
 

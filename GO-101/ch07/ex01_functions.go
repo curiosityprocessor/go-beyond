@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func Functions() {
 	c:= Add(2, 5)
 	fmt.Println(c)
 }
