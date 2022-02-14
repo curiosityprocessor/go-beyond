@@ -14,7 +14,11 @@ Go basics with **Tucker의 Go 언어 프로그래밍**
 |ch04|variables|declaration, conversion, scope, size|
 |ch05|fmt|standard I/O|
 |ch06|operators| |
-|ch07|functions| |
+|ch07|functions|multi-return types, named return types |
+|ch08|constants|iota, typless constants |
+|ch09|if|if else if, init statement|
+|ch10|switch|init statement, break, fallthrough |
+
 
 ## adopted conventions
 #### packages
@@ -25,7 +29,9 @@ Go basics with **Tucker의 Go 언어 프로그래밍**
 * exporting functions: UpperCamelCase
 * non-exporting functions: camelCase
 * compound words for clarity
+
 #### variables
 * camelCase
+* exporting constants in UpperCamelCase
 * has, is, can prefix for bool types
 * preferably short, single words
