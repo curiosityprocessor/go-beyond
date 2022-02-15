@@ -20,7 +20,8 @@ Go basics with **Tucker의 Go 언어 프로그래밍**
 |ch10|switch|init statement, break, fallthrough |
 |ch11|for loop|optional init, conditional, post statements |
 |ch12|array| |
-|ch13|struct| |
+|ch13|struct|nameless nested structs, memory alignment |
+|ch14|pointer|pass by value of pointer i.e. pass by reference|
 
 
 ## adopted conventions
