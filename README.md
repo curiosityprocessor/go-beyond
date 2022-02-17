@@ -25,6 +25,12 @@ Go basics with **Tucker의 Go 언어 프로그래밍**
 |ch15|string| |
 |ch16|package|
 
+### 2. guess_my_number
+Guessing a random number  
+using  
+* math/rand, time package
+* standard I/O
+* for loop
 
 
 ## adopted conventions
