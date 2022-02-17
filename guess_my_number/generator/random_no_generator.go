@@ -7,7 +7,7 @@ import (
 
 const MaxValue = 100
 
-func RandomNoGenerator() int {
+func GenerateRandomNum() int {
 	rand.Seed(time.Now().UnixNano())
 	return rand.Intn(MaxValue)
 }

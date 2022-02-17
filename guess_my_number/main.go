@@ -12,23 +12,42 @@ var stdin = bufio.NewReader(os.Stdin)
 func main() {
 	fmt.Println("======= START ======")
 	
-	num := generator.RandomNoGenerator()
-	fmt.Println(">>> DEBUG num:", num)
+	actual := generator.GenerateRandomNum()
+	fmt.Println(">>> DEBUG num:", actual)
 
 	fmt.Println("Guess my number")
-	input, err := InputValue()
-	if err != nil {
-		fmt.Println("Something went wrong... Try again!")
-	} else {
-		fmt.Println(">>> DEBUG input:", input)
+	for {
+		guess, err := ReceiveInt()
+		if err != nil {
+			fmt.Println("Not a valid number... Try again!")
+			continue
+		}
+		
+		isCorrect, message := isGuessCorrect(actual, guess)
+		fmt.Println(message)
+		
+		if(isCorrect) {
+			break
+		}
 	}
-	
-	fmt.Println(num == input)
 	
 	fmt.Println("======== END =======")
 }
 
-func InputValue() (int, error) {
+func isGuessCorrect(actual, guess int) (bool, string) {
+	switch {
+		case guess == actual:
+			return true, "Correct!"
+		case guess > actual:
+			return false, "Down"
+		case guess < actual:
+			return false, "Up"
+		default:
+			return false, "Try again"
+	}
+}
+
+func ReceiveInt() (int, error) {
 	var input int
 	_, err := fmt.Scanln(&input)
 	if err != nil {
