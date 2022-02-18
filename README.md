@@ -23,10 +23,11 @@ Go basics with **Tucker의 Go 언어 프로그래밍**
 |ch13|struct|nameless nested structs, memory alignment |
 |ch14|pointer|pass by value of pointer i.e. pass by reference|
 |ch15|string| |
-|ch16|package|
+|ch16|package| |
+|ch18|slice|slice vs array, append |
 
 ### 2. guess_my_number
-Guessing a random number  
+Guess a random number  
 using  
 * math/rand, time package
 * standard I/O
