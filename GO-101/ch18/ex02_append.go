@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func Append() {
 	var slice1 = [] int {1, 2, 3}
 	fmt.Println("slice1:", slice1)
 
