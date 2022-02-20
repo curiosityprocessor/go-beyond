@@ -24,7 +24,7 @@ Go basics with **Tucker의 Go 언어 프로그래밍**
 |ch14|pointer|pass by value of pointer i.e. pass by reference|
 |ch15|string| |
 |ch16|package| |
-|ch18|slice|slice vs array, append, make, unexpected behaviours, copy, |
+|ch18|slice|slice vs array, append, make, unexpected behaviours, copy, remove, add, sort |
 
 ### 2. guess_my_number
 Guess a random number  
